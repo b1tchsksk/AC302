@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+	font-family: 'Monoton', cursive;
+	color: white;
+	text-align: center;
+}
+img {
+	height: 75%;
+	margin: 10px;
+}
+.outside{
+	width: 85%;
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: white 1px solid;
+	margin: 10px auto;
+}
+.inside{
+	border: white 1px solid;
+	padding: 2px 20px;
+	height: 80%;
+	width:80%;
+	padding-right: 2px;
+	background-color: #1f2230;
+}

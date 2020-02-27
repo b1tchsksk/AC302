@@ -1,0 +1,10 @@
+$('#light').click(function(){
+	$('body').css('background-color',"#e8e6ff"); 
+	$('body').css('color',"black"); 
+	$('.inside').css('background-color',"#e6fff3")
+})
+$('#dark').click(function(){
+	$('body').css('background-color',"black"); 
+	$('body').css('color',"white"); 
+	$('.inside').css('background-color',"#1f2230")
+})
